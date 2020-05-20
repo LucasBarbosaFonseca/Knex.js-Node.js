@@ -1,0 +1,20 @@
+{
+  "name": "estudo_knexjs",
+  "version": "1.0.0",
+  "description": "Estudos de knex.js que é um SQL Query Builder Javascript que da pra usar muitos\r bancos de dados nele, mas no estudo estou usando Postgres.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.0.3"
+  }
+}
